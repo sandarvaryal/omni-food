@@ -1,0 +1,236 @@
+/* media query 1rem 10px hudaina body ko value inherit na garera tesaile 1rem=16px */
+
+@media (max-width: 84rem) {
+    .hero-heading {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 75rem) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .heading-reusable {
+        font-size: 3.6rem;
+    }
+    
+    .hero {
+        gap: 4.8rem;
+    }
+    
+    .testimonial-container {
+        padding: 9.6rem 3.2rem;
+    }
+    
+
+}
+
+@media (max-width: 59rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 0 5rem;
+        gap: 6.4rem;
+    }
+
+    .hero-img {
+        max-width: 60%;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+    
+    .delivered-meals {
+        justify-content: center;
+    }
+
+    .dilivered-imgs {
+        margin-top: 3.2rem
+    }
+    
+
+    .hero-img-div {
+        text-align: center;
+    }
+
+    .logos img {
+        height: 2.4rem;
+        filter: brightness(0);
+        opacity: 50%;
+    }
+
+    .z-number {
+        font-size: 7.4rem;
+    }
+  
+    .meal-content {
+        padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    }
+
+
+
+    .section-testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .contact {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    .btn {
+        margin-top: 1.2rem;
+    }
+
+    .diet-heading {
+        font-size: 2.4rem;
+        margin-bottom: 1.4rem;
+    }
+    
+    .lists {
+        gap: 1.4rem;
+    }
+
+    .mobile-nav-button {
+        display: block;
+    }
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.97);
+        position: absolute;
+        top: -50%;
+        left: 0%;
+
+    }
+
+}
+
+@media (max-width: 44rem) {
+    .grid-3-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-4-columns {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .diets {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    
+    .heading-reusable {
+        margin-bottom: 4.8rem;
+    }
+
+    .pricing-plan {
+        width: 100%;
+    }
+
+    .grid-footer {
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .logo-foot, .contact-foot {
+        grid-column: span 3;
+        
+    }
+
+    .foot-column {
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+    }
+
+}
+
+@media (max-width: 34rem) {
+
+    .btn, .btn1,.btn2 {
+        padding: 2.4rem 1.4rem;
+    }
+
+    .section-hero {
+        padding: 2.4rem 0 6.4rem 0;
+    }
+
+    .grid {
+        row-gap: 4.8rem;
+    }
+
+    .grid-2-columns,
+    .grid-3-columns,
+    .grid-4-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-img {
+        max-width: 100%;
+    }
+    
+    .logos img {
+        height: 1.2rem;
+    }
+
+    .z-img-box:nth-child(2) {
+        grid-row: 1;
+    }
+    
+    .z-img-box:nth-child(6) {
+        grid-row: 5;
+    }
+
+    .z-img-box {
+        transform: translateY(2.4rem);
+    }   
+
+    .testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+    }
+
+    .contact{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-text-box {
+        padding: 3.2rem;
+    }
+
+    .contact-img-box {
+        height: 32rem;
+        grid-row: 1;
+    }
+
+}
+
+
+
+
